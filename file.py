@@ -1,5 +1,5 @@
 num = input()
-if num == str(num)[::-1]:
+if (num == str(num)[::-1]):
         print('yes')
 else:
         print('no')
